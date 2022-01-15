@@ -1,2 +1,2 @@
-# trabajos-de-analisis-de-datos
-trabajos con jupyter
+# Trabajos-de-analisis-de-datos
+Trabajos con jupyter
