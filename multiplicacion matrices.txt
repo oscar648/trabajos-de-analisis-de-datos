@@ -1,0 +1,24 @@
+#Multiplicacion de matrices
+
+print("se da una matriz de m filas por n columnas")
+m1= [[0,7,3],
+    [4,5,0],
+    [7,0,9]]
+print("dada otra matriz m2 de n filas y k columnas")
+
+m2= [[5,-1,-5,2],
+    [6,7,3,0],
+    [4,0,9,1]]
+print("el producto es una matriz de m filas y k columnas")
+    
+res = [[0,0,0,0],
+         [0,0,0,0],
+         [0,0,0,0]]
+         
+for l in range(len(m1)):
+    for j in range(len(m2[0])):
+        for k in range(len(m2)):
+            res[l][j] += m1[l][k] * m2[k][j]
+    
+for r in res:
+    print(r)
